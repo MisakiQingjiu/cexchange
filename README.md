@@ -289,8 +289,3 @@ spring.jpa.hibernate.ddl-auto=update
 
 2、部分类缺少get/set方法
 为开发工具安装Lombok插件
-
-#### 捐赠
-
-家里受到疫情严重影响（老婆旅游行业的，父母开小饭店，我是程序员），挺困难，一块不嫌少，感谢你的支持！
-![我的支付宝](https://images.gitee.com/uploads/images/2020/0323/152438_f1cabd43_2182501.jpeg "1584947994.jpg")
