@@ -56,7 +56,7 @@
 
 #### 环境配置
 
-系统运行依赖于Mongodb、Redis、MySQL、kafka，所以你需要准备好这些基础服务。
+系统运行依赖于Mongodb、Redis、MySQL、kafka、阿里云OSS，所以你需要准备好这些基础服务。
 
 #### 常见编译问题（Error）
 
