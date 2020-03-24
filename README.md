@@ -7,6 +7,11 @@
 
 ![Framework整体说明](https://images.gitee.com/uploads/images/2020/0322/192334_8601c30c_2182501.png "微信截图_20200322192233.png")
 
+#### 开发参考
+
+开发参考文档：[https://gitee.com/cexchange/CoinExchange/blob/master/DEVELOP.md](https://gitee.com/cexchange/CoinExchange/blob/master/DEVELOP.md)
+
+
 #### 系统运行环境
 
 1.  Centos 6.8
