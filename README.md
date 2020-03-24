@@ -298,10 +298,6 @@ spring.jpa.hibernate.ddl-auto=update
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182850_8b19fe57_2182501.png "download4.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182856_9206a79a_2182501.png "download5.png")
 
-#### 一般问题记录
+#### 特别注意
 
-1、缺少以Q开头的文件
-请先编译一下对应的core、exchange-core模块，会自动生成QXXXXX.java文件。本项目使用JPA QueryDsl实现表操作。
-
-2、部分类缺少get/set方法
-为开发工具安装Lombok插件
+任何使用本源码从事商业活动，对别人和自己造成损失的，本人概不负责！
