@@ -289,6 +289,13 @@ spring.jpa.hibernate.ddl-auto=update
 
 ![OTC管理，后端开发完成，前端未对接](https://images.gitee.com/uploads/images/2020/0322/194654_bd0acbe7_2182501.png "图片27.png")
 
+#### APP下载图片示例
+
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182826_f0617759_2182501.png "download1.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182834_7a82f8a8_2182501.png "download2.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182840_c3d08fb7_2182501.png "download3.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182850_8b19fe57_2182501.png "download4.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182856_9206a79a_2182501.png "download5.png")
 
 #### 一般问题记录
 
