@@ -12,7 +12,9 @@
 00_Framework文件夹下的项目是所有服务的集合，通过SpringCloud的微服务开发模式进行开发，你可以通过Eclipse打开整个工程项目，我的开发工具版本如下：
 
 > Eclipse Java EE IDE for Web Developers.
+
 > Version: Photon Release (4.8.0)
+
 > Build id: 20180619-1200
 
 首先，为开发工具安装Lombok插件。
@@ -43,8 +45,11 @@
 
 
 > #jpa
+
 > spring.jpa.show-sql=true
+
 > spring.data.jpa.repositories.enabled=true
+
 > spring.jpa.hibernate.ddl-auto=update
 
 如果你不希望数据库表与Java类实体动态更新，你可选择修改配置项：spring.jpa.hibernate.ddl-auto=update
