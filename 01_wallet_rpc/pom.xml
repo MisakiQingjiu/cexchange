@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ztuo.bc.wallet</groupId>
+    <groupId>com.bizzan.bc.wallet</groupId>
     <artifactId>wallet-rpc</artifactId>
     <packaging>pom</packaging>
     <version>1.2</version>
@@ -81,12 +81,12 @@
 				<systemPath>${project.basedir}/lib/bitcoin-rpc-1.2.0.jar</systemPath>
             </dependency>
             <dependency>
-                <groupId>com.ztuo.bc.wallet</groupId>
+                <groupId>com.bizzan.bc.wallet</groupId>
                 <artifactId>rpc-common</artifactId>
                 <version>${project-version}</version>
             </dependency>
             <dependency>
-                <groupId>com.ztuo.bc.wallet</groupId>
+                <groupId>com.bizzan.bc.wallet</groupId>
                 <artifactId>eth-support</artifactId>
                 <version>${project-version}</version>
             </dependency>
