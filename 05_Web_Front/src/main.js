@@ -23,8 +23,8 @@ Vue.use(VueRouter);
 Vue.use(vueResource);
 Vue.use(VueI18n);
 
-Vue.prototype.rootHost = "https://www.bizzan.com"; //BIZZAN
-Vue.prototype.host = "https://api.bizzan.com"; //BIZZAN
+Vue.prototype.rootHost = "https://www.xxxx.com"; //BIZZAN
+Vue.prototype.host = "https://api.xxxx.com"; //BIZZAN
 
 Vue.prototype.api = Api;
 Vue.http.options.credentials = true;
