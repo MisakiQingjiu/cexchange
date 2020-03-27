@@ -152,3 +152,45 @@ cd nginx-1.12.2
 
 make 
 make install
+
+# 关于访问服务
+你可以通过Eruka的服务调度中心看到每个服务，或者通过zuul统一网关调用服务，为了方便，我本地开发的方式是用nginx反向代理各种服务，配置参考如下：
+
+```
+    server_name locahost;
+    location /market {
+        client_max_body_size    5m;
+        proxy_pass http://localhost:6004;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Scheme $scheme;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+    }
+    location /exchange {
+        client_max_body_size    5m;
+        proxy_pass http://localhost:6003;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+    location /uc {
+        client_max_body_size    5m;
+        proxy_pass http://localhost:6001;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+    location /admin {
+        client_max_body_size    5m;
+        proxy_pass http://localhost:6010;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+    location /chat {
+        client_max_body_size    5m;
+        proxy_pass http://localhost:6008;
+        proxy_set_header Host $host;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+```
