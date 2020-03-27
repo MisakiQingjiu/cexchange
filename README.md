@@ -60,7 +60,7 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 
 └─———market    市场行情API、K线生成
 
-└─———otc-api   OTC交易API
+└─———otc-api   OTC交易API（如无需otc功能可不启动）
 
 └─———otc-core  OTC核心
 
@@ -125,10 +125,10 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 7.  修改framework代码中的配置文件为准备环境配置参数
 8.  编译生成jar可执行文件
 9.  运行cloud.jar（微服务注册中心）
-10.  运行market.jar（行情中心）
-11. 运行exchange.jar（交易中心）
+10. 运行exchange.jar（撮合交易引擎）
+11. 运行market.jar（行情中心，需要等待Exchange.jar完全启动）
 12. 运行ucenter.jar（用户中心）
-13. 运行其他模块
+13. 运行其他模块（wallet.jar、chat.jar、otc-api.jar等）
 14. 打开mysql，导入framework代码中的sql文件夹中xxxxxxx.sql文件，注意，trigger的sql如果报错，需要针对wallet表添加trigger
 15. 运行前端vue项目
 16. 运行后端vue项目
