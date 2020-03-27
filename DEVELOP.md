@@ -119,21 +119,32 @@ nginx文档目录：usr/local/nginx/html/、usr/local/nginx/conf/
 
 
 ===========================
+
 依赖环境
+
+```
 yum install -y wget  
 yum install -y vim-enhanced  
 yum install -y make cmake gcc gcc-c++  
 yum install -y pcre pcre-devel
 yum install -y zlib zlib-devel
 yum install -y openssl openssl-devel
+```
+
 
 下载nginx-1.12.2.tar.gz
-wget http://nginx.org/download/nginx-1.12.2.tar.gz
+`wget http://nginx.org/download/nginx-1.12.2.tar.gz`
 
 编译安装 
+
+```
 tar -zxvf nginx-1.12.2.tar.gz 
 cd nginx-1.12.2
+```
 
+
+
+```
 ./configure \
 --prefix=/usr/local/nginx \
 --pid-path=/var/run/nginx/nginx.pid \
@@ -152,6 +163,8 @@ cd nginx-1.12.2
 
 make 
 make install
+```
+
 
 # 关于访问服务
 你可以通过Eruka的服务调度中心看到每个服务，或者通过zuul统一网关调用服务，为了方便，我本地开发的方式是用nginx反向代理各种服务，配置参考如下：
