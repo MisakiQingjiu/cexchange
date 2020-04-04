@@ -23,6 +23,13 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 
 管理后台截图：[https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/管理后台截图](https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE)
 
+#### 实际演示网站
+
+[https://www.bizzan.com](https://www.bizzan.com)
+
+这个是给客户做的，但是后来客户不运营了，所以遗留了这个网站，因为我没有服务器权限，所以这个网站随时可能无法访问。
+
+
 #### 关于移动端源码与交易机器人源码
 
 Android源码、IOS源码、交易机器人源码有偿提供，需要的加QQ：877070886
