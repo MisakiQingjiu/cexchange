@@ -10,7 +10,7 @@
 - 原生苹果APP源码 
 - 币种钱包RPC源码 
  
-#### 系统架构概要
+## 系统架构概要
 
 随便画的一个草图，凑合看吧。。。
 
@@ -18,7 +18,7 @@
 
 ![Framework整体说明](https://images.gitee.com/uploads/images/2020/0322/192334_8601c30c_2182501.png "微信截图_20200322192233.png")
 
-#### 系统演示视频
+## 系统演示视频
 
 PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexchange/CoinExchange/attach_files)
 
@@ -26,13 +26,13 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 
 管理后台：[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexchange/CoinExchange/attach_files)
 
-#### 开发参考
+## 开发参考
 
 开发参考文档：[https://gitee.com/cexchange/CoinExchange/blob/master/DEVELOP.md](https://gitee.com/cexchange/CoinExchange/blob/master/DEVELOP.md)
 
 管理后台截图：[https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/管理后台截图](https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE)
 
-#### 关于撮合交易引擎
+## 关于撮合交易引擎
 
 本系统对交易队列采用内存撮合的方式进行，以Kafka做撮合订单信息传输，MongoDB持久化订单成交明细，MySQL记录订单总体成交。
 其中01_Framework/Exchange项目主要负责内存撮合，01_Framework/Market项目主要负责订单成交持久化、行情生成、行情推送等服务，包括：
@@ -62,7 +62,7 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 
 总之，本系统支持高度自定义的撮合模式，同时你也可以开发出你自己想要的撮合交易模式，只需要通过修改Exchange项目中的撮合逻辑就可以。
 
-#### 实际演示网站
+## 实际演示网站
 
 [https://www.bizzan.com](https://www.bizzan.com)
 
@@ -91,7 +91,7 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 
 ==============================================
 
-#### 系统运行环境
+## 系统运行环境
 
 1.  Centos 6.8
 2.  MySQL 5.5.16
@@ -104,7 +104,7 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 9.  Vue
 10. Zookeeper
 
-#### 文件目录说明
+## 文件目录说明
 
  **00_framework**
 
@@ -169,7 +169,7 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
  **05_Web_Front**
 
 
-#### 使用教程
+## 使用教程
 
 1.  准备mysql数据库，创建名称为“xxxx”的数据库
 2.  准备redis缓存数据库
@@ -190,7 +190,7 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 17. 运行钱包RPC
 18. 运行自动交易机器人程序（本部分代码未上传，但不影响）
 
-#### 技术支持
+## 技术支持
 
 本数字货币交易系统系我所在公司为交易所开发的项目，该交易所因团队原因已停止运营，我司也已于2月解散。因我参与项目时，负责整体研发管理、架构设计以及客户对接，所以掌握所有代码。
 
@@ -200,7 +200,7 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 
 联系QQ：877070886
 
-#### 注意事项
+## 注意事项
 
 当内存不足时，在linux控制台输入top可以查看java进程占用了大量内存（一个java进程占用1G以上），因为有很多jar包需要运行，所以需要控制某些jar包使用的内存，你可选择几个不怎么耗费资源的项目，如下：
 
@@ -210,12 +210,12 @@ java -jar -Xms512m -Xmx512m -Xmn200m -Xss256k  cloud.jar
 
 java -jar -Xms512m -Xmx512m -Xmn200m -Xss256k  wallet.jar
 
-#### 关于邮件&短信
+## 关于邮件&短信
 
 1.  本系统支持邮件、短信发送系统运营状态
 2.  系统通知/报警支持：用户注册、用户认证、用户充值/提现、币种RPC运行状态、系统资源使用监控等24种监控
 
-#### 关于数据库脚本的问题
+## 关于数据库脚本的问题
 
 有朋友反映没有完整的SQL文件，这是因为编译成功的Jar，首次运行后会自动将Entity映射成数据库结构，项目中的SQL只是完成一些Springcloud无法完成的数据库结构。
 数据库自动生成配置位于application.properties配置文件：
@@ -231,7 +231,7 @@ java -jar -Xms512m -Xmx512m -Xmn200m -Xss256k  wallet.jar
 spring.jpa.hibernate.ddl-auto=update
 这个配置会自动更新数据库结构。
 
-#### 核心功能说明（用户端）
+## 核心功能说明（用户端）
 
 1.  注册/登录/实名认证/审核（目前仅支持手机，二次开发可加入邮件，很简单）
 2.  Banner/公告/帮助/定制页面（Banner支持PC与APP分开设置，帮助支持各种分类模式）
@@ -254,7 +254,7 @@ spring.jpa.hibernate.ddl-auto=update
 8.  用户资产管理、流水管理、委托管理、实名管理等各种基础管理
 
 
-#### 核心功能说明（管理端）
+## 核心功能说明（管理端）
 
 1.  概要（查看平台运行数据，包含交易额、注册人数、充值等）
 2.  会员管理（会员信息管理、会员实名审核、会员实名管理、会员余额管理、会员充值/冻结余额等）
@@ -269,7 +269,7 @@ spring.jpa.hibernate.ddl-auto=update
 11.  保证金管理（此功能设计时考虑到，但实际运营期间未使用到）
 12.  OTC管理（广告管理、订单管理、OTC币种管理、退保管理等，此功能未获得实际运营检验）
 
-#### 关于区块链钱包对接
+## 关于区块链钱包对接
 
 当你拿到代码以后，对本项目进行调试运行期间，可不连接区块链节点，这并不会有太大的影响；即使不连接区块链节点，你也可以部署其一个具有撮合交易功能的交易平台（只是用户无法通过钱包地址充值而已）。 
 
@@ -288,7 +288,7 @@ spring.jpa.hibernate.ddl-auto=update
 ![充值逻辑](https://images.gitee.com/uploads/images/2020/0327/162223_5d418523_2182501.png "13981024-76374161aedf70d6.png")
 
 
-#### 系统展示（PC前端）
+## 系统展示（PC前端）
 
 ![首页](https://images.gitee.com/uploads/images/2020/0327/135803_75ec9a0b_2182501.png "01_首页.png")
 
@@ -308,7 +308,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ![帮助](https://images.gitee.com/uploads/images/2020/0322/193902_ef09925e_2182501.png "图片9.png")
 
-#### 系统运行展示（APP前端）
+## 系统运行展示（APP前端）
 
 ![首页](https://images.gitee.com/uploads/images/2020/0322/193927_9940ca7c_2182501.jpeg "图片10.jpg")
 
@@ -324,7 +324,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ![邀请管理](https://images.gitee.com/uploads/images/2020/0322/194112_7ae11b00_2182501.jpeg "图片16.jpg")
 
-#### 手机Web端部分页面
+## 手机Web端部分页面
 
 ![APP下载](https://images.gitee.com/uploads/images/2020/0325/130921_7d8dee06_2182501.jpeg "12.jpg")
 
@@ -333,7 +333,7 @@ spring.jpa.hibernate.ddl-auto=update
 ![活动/创新实验室](https://images.gitee.com/uploads/images/2020/0325/130948_e36b562d_2182501.jpeg "13.jpg")
 
 
-#### 系统运行展示（后端）
+## 系统运行展示（后端）
 
 ![登录](https://images.gitee.com/uploads/images/2020/0322/194251_9b5293ff_2182501.png "图片17.png")
 
@@ -357,7 +357,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ![OTC管理，后端开发完成，前端未对接](https://images.gitee.com/uploads/images/2020/0322/194654_bd0acbe7_2182501.png "图片27.png")
 
-#### APP下载图片示例
+## APP下载图片示例
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182826_f0617759_2182501.png "download1.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182834_7a82f8a8_2182501.png "download2.png")
@@ -365,6 +365,6 @@ spring.jpa.hibernate.ddl-auto=update
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182850_8b19fe57_2182501.png "download4.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0324/182856_9206a79a_2182501.png "download5.png")
 
-#### 特别注意
+## 特别注意
 
 任何使用本源码从事商业活动，对别人和自己造成损失的，本人概不负责！
