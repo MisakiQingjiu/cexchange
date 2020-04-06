@@ -105,6 +105,10 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 9.  Vue
 10. Zookeeper
 
+## 生产环境建议配置
+
+![生产环境建议配置](https://images.gitee.com/uploads/images/2020/0406/204436_dfff09a6_2182501.png "QQ截图20200406204341.png")
+
 ## 文件目录说明
 
  **00_framework**
