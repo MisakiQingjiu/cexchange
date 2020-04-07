@@ -17,13 +17,15 @@
 随便画的几个草图，凑合看吧。。。
 
 #### 整体架构
-![整体架构](https://images.gitee.com/uploads/images/2020/0406/163108_dd7de899_2182501.png "QQ截图20200406163048.png")
+
+![整体架构](https://images.gitee.com/uploads/images/2020/0407/143836_eac248e5_2182501.png "1.png")
 
 #### 逻辑架构
-![逻辑架构](https://images.gitee.com/uploads/images/2020/0407/115818_725edf88_2182501.png "QQ截图20200407115712.png")
+
+![逻辑架构](https://images.gitee.com/uploads/images/2020/0407/143856_66257325_2182501.png "2.png")
 
 #### 部署架构
-![部署架构](https://images.gitee.com/uploads/images/2020/0407/123534_c31af248_2182501.png "QQ截图20200407123446.png")
+![部署架构](https://images.gitee.com/uploads/images/2020/0407/143915_a07fceb2_2182501.png "3.png")
 
 #### 依赖关系
 
