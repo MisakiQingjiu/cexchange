@@ -23,6 +23,8 @@
 #### 部署架构
 ![部署架构](https://images.gitee.com/uploads/images/2020/0407/123534_c31af248_2182501.png "QQ截图20200407123446.png")
 
+#### 依赖关系
+
 ![Framework整体说明](https://images.gitee.com/uploads/images/2020/0322/192334_8601c30c_2182501.png "微信截图_20200322192233.png")
 
 ## 系统演示视频
