@@ -12,9 +12,11 @@
  
 ## 系统架构概要
 
-随便画的一个草图，凑合看吧。。。
+随便画的几个草图，凑合看吧。。。
 
 ![整体架构](https://images.gitee.com/uploads/images/2020/0406/163108_dd7de899_2182501.png "QQ截图20200406163048.png")
+
+![逻辑架构](https://images.gitee.com/uploads/images/2020/0407/115818_725edf88_2182501.png "QQ截图20200407115712.png")
 
 ![Framework整体说明](https://images.gitee.com/uploads/images/2020/0322/192334_8601c30c_2182501.png "微信截图_20200322192233.png")
 
