@@ -91,6 +91,13 @@ Spring Cloud是一系列框架的有序集合。它利用Spring Boot的开发便
 
 总之，本系统支持高度自定义的撮合模式，同时你也可以开发出你自己想要的撮合交易模式，只需要通过修改Exchange项目中的撮合逻辑就可以。
 
+## 关于技术构成
+
+- 后端：Spring、SpringMVC、SpringData、SpringCloud、SpringBoot
+- 数据库：Mysql、Mongodb
+- 其他：redis、kafka、阿里云OSS、腾讯防水校验
+- 前端：Vue、iView、less
+
 ## 实际演示网站
 
 [https://www.bizzan.com](https://www.bizzan.com)
