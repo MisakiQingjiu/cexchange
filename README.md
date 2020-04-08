@@ -48,6 +48,32 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 
 管理后台截图：[https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/管理后台截图](https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE)
 
+## 关于服务器配置与部署
+
+[服务器配置.md](./09_DOC/00_服务器部署/推荐服务器配置.md)
+
+## 搭建基础环境
+
+[安装基础环境手册](./09_DOC/00_服务器部署/安装基础环境.md)
+
+[服务部署脚本](./09_DOC/00_服务器部署/install.sh)
+
+[安装MySql手册](./09_DOC/00_服务器部署/安装MySql.md)
+
+[安装Redis手册](./09_DOC/00_服务器部署/安装Redis.md)
+
+[安装Zookeeper手册](./09_DOC/00_服务器部署/安装Zookeeper.md)
+
+[安装Kafka手册](./09_DOC/00_服务器部署/安装Kafka.md)
+
+[安装Mongodb手册](./09_DOC/00_服务器部署/安装Mongodb.md)
+
+[搭建BTC钱包节点手册](./09_DOC/00_服务器部署/搭建BTC钱包.md)
+
+[搭建ETH钱包节点手册](./09_DOC/00_服务器部署/搭建ETH钱包.md)
+
+[搭建USDT钱包节点手册](./09_DOC/00_服务器部署/搭建USDT钱包.md)
+
 ## 关于SpringCloud
 
 Spring Cloud是一系列框架的有序集合。它利用Spring Boot的开发便利性巧妙地简化了分布式系统基础设施的开发，如服务发现注册、配置中心、消息总线、负载均衡、断路器、数据监控等，都可以用Spring Boot的开发风格做到一键启动和部署。Spring Cloud并没有重复制造轮子，它只是将各家公司开发的比较成熟、经得起实际考验的服务框架组合起来，通过Spring Boot风格进行再封装屏蔽掉了复杂的配置和实现原理，最终给开发者留出了一套简单易懂、易部署和易维护的分布式系统开发工具包。
