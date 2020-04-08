@@ -4,7 +4,7 @@
 
 ## 简要介绍
 
-本项目是基于Java开发的比特币交易所 | BTC交易所 | ETH交易所 | 数字货币交易所 | 交易平台 | 撮合交易引擎。本项目基于SpringCloud微服务开发，可用来搭建和二次开发数字货币交易所，有完整的系统组成部分。 
+本项目是基于Java（SpringCloud）开发的比特币交易所 | BTC交易所 | ETH交易所 | 数字货币交易所 | 交易平台 | 撮合交易引擎。本项目基于SpringCloud微服务开发，可用来搭建和二次开发数字货币交易所，有完整的系统组成部分。 
 - 撮合交易引擎 
 - 后台管理（后端+前端） 
 - 前台（交易页面、活动页面、个人中心等） 
@@ -44,6 +44,16 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 开发参考文档：[https://gitee.com/cexchange/CoinExchange/blob/master/DEVELOP.md](https://gitee.com/cexchange/CoinExchange/blob/master/DEVELOP.md)
 
 管理后台截图：[https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/管理后台截图](https://gitee.com/cexchange/CoinExchange/tree/master/09_DOC/%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE)
+
+## 关于SpringCloud
+
+Spring Cloud是一系列框架的有序集合。它利用Spring Boot的开发便利性巧妙地简化了分布式系统基础设施的开发，如服务发现注册、配置中心、消息总线、负载均衡、断路器、数据监控等，都可以用Spring Boot的开发风格做到一键启动和部署。Spring Cloud并没有重复制造轮子，它只是将各家公司开发的比较成熟、经得起实际考验的服务框架组合起来，通过Spring Boot风格进行再封装屏蔽掉了复杂的配置和实现原理，最终给开发者留出了一套简单易懂、易部署和易维护的分布式系统开发工具包。
+一般而言，一个完整的SpringCloud框架应该如下图所示：
+
+![SpringCloud框架图](https://images.gitee.com/uploads/images/2020/0408/133052_3ec984df_2182501.png "图片2.png")
+
+如果对SpringCloud尚不熟悉，可以先简单学习一下SpringCloud的相关教程，这样再回来看本项目，会更加容易上手。
+提醒一下，因为Springcloud框架图中是完整的架构，在开发的时候，我们会适当的裁剪一些内容，从而让开发和部署更加快速，所以有一些出入的地方。
 
 ## 关于撮合交易引擎
 
