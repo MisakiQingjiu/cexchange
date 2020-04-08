@@ -1,4 +1,4 @@
-# 本地开发说明
+## 本地开发说明
 
 本文档适合有一定基础的人看，需要具备SpringCloud/SringBoot开发基础、Vue/Npm前端开发基础、Mysql基础、Mongodb基础、Redis基础、Linux基础。一般而言，大部分Java程序员都具备这些能力。
 
@@ -7,7 +7,7 @@
 本项目前后端分离，如果你是一个全栈程序员，这个项目应该很快就能调试通。
 有什么问题可以添加QQ：877070886，我会给予一定的技术援助（小白问题请绕过）。
 
-#### 关于Framework开发
+## 关于Framework开发
 
 00_Framework文件夹下的项目是所有服务的集合，通过SpringCloud的微服务开发模式进行开发，你可以通过Eclipse打开整个工程项目，我的开发工具版本如下：
 
@@ -35,12 +35,12 @@
 启动方式：通过npm run dev即可热启动项目，通过npm run build可编译出部署文件。
 
 
-#### 关于前台Web端开发
+## 关于前台Web端开发
 
 前台Web端（PC）因为要访问不同的服务，像个人信息需要调用Ucenter提供的服务，交易需要调用Exchange-api的服务，所以，你需要通过网关的方式为前端提供服务。
 配置文件在：src/main.js，你可通过修改Vue.prototype.rootHost及Vue.prototype.host来实现对后端服务的调用。
 
-#### 关于数据库（MySQL）
+## 关于数据库（MySQL）
 数据库文件在00_Framework/sql文件夹下，提供了db_patch，这个文件仅提供了一些基础数据（菜单树、管理员权限等），其他的数据库表会在jar包首次运行的时候自动更新到数据库，配置项在：
 
 
@@ -54,11 +54,11 @@
 
 如果你不希望数据库表与Java类实体动态更新，你可选择修改配置项：spring.jpa.hibernate.ddl-auto=update
 
-#### 环境配置
+## 环境配置
 
 系统运行依赖于Mongodb、Redis、MySQL、kafka、阿里云OSS，所以你需要准备好这些基础服务。
 
-#### 常见编译问题（Error）
+## 常见编译问题（Error）
 
 一、启动ucenter-api时，提示下列错误：
 Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource
@@ -83,7 +83,7 @@ Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defi
 3、market.jar启动失败，提示connection refuesed之类的错误，首先用netstat -tunlp查看端口6005（也就是exchange）是否有监听，如果没有，则说明exchange未完全启动。
 导致exchange启动慢的原因主要是初始化时，对未完成的订单加载慢。初始化时，需要从mangodb加载订单成交详情，这是非常巨大的数据。
 
-#### 一些配置项说明
+## 一些配置项说明
 
 1、market/application.properties
 	# 二级推荐人币币手续费佣金是否发放(true：开放    false：不开放)
@@ -106,16 +106,19 @@ Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defi
 	transfer.key=
 	transfer.smac=
 
-#### Nginx配置
+## Nginx配置
 
-参考网址：
+ **参考网址：** 
+
 https://blog.csdn.net/qq_36628908/article/details/80243713
 
 nginx文档目录：usr/local/nginx/html/、usr/local/nginx/conf/
 
-注意事项：
-1、api.xxxx.com 与 www.xxxx.com需要转发不同服务
-2、需要api.xxxx.com支持websocket
+ **注意事项：** 
+
+1. api.xxxx.com 与 www.xxxx.com需要转发不同服务
+
+2. 需要api.xxxx.com支持websocket
 
 
 ===========================
