@@ -25,7 +25,8 @@
 ![逻辑架构](https://images.gitee.com/uploads/images/2020/0407/143856_66257325_2182501.png "2.png")
 
 #### 部署架构
-![部署架构](https://images.gitee.com/uploads/images/2020/0407/143915_a07fceb2_2182501.png "3.png")
+
+![部署架构](https://images.gitee.com/uploads/images/2020/0408/141710_07923003_2182501.png "1117.png")
 
 #### 依赖关系
 
