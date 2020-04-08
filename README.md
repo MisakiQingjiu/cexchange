@@ -50,29 +50,17 @@ PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_fi
 
 ## 关于服务器配置与部署
 
-[服务器配置.md](./09_DOC/00_服务器部署/推荐服务器配置.md)
-
-## 搭建基础环境
-
-[安装基础环境手册](./09_DOC/00_服务器部署/安装基础环境.md)
-
-[服务部署脚本](./09_DOC/00_服务器部署/install.sh)
-
-[安装MySql手册](./09_DOC/00_服务器部署/安装MySql.md)
-
-[安装Redis手册](./09_DOC/00_服务器部署/安装Redis.md)
-
-[安装Zookeeper手册](./09_DOC/00_服务器部署/安装Zookeeper.md)
-
-[安装Kafka手册](./09_DOC/00_服务器部署/安装Kafka.md)
-
-[安装Mongodb手册](./09_DOC/00_服务器部署/安装Mongodb.md)
-
-[搭建BTC钱包节点手册](./09_DOC/00_服务器部署/搭建BTC钱包.md)
-
-[搭建ETH钱包节点手册](./09_DOC/00_服务器部署/搭建ETH钱包.md)
-
-[搭建USDT钱包节点手册](./09_DOC/00_服务器部署/搭建USDT钱包.md)
+- [服务器配置参考手册](./09_DOC/00_服务器部署/推荐服务器配置.md)  
+- [安装基础环境手册](./09_DOC/00_服务器部署/安装基础环境.md)  
+- [服务部署脚本](./09_DOC/00_服务器部署/install.sh)  
+- [安装MySql手册](./09_DOC/00_服务器部署/安装MySql.md)  
+- [安装Redis手册](./09_DOC/00_服务器部署/安装Redis.md)  
+- [安装Zookeeper手册](./09_DOC/00_服务器部署/安装Zookeeper.md)  
+- [安装Kafka手册](./09_DOC/00_服务器部署/安装Kafka.md)  
+- [安装Mongodb手册](./09_DOC/00_服务器部署/安装Mongodb.md)  
+- [搭建BTC钱包节点手册](./09_DOC/00_服务器部署/搭建BTC钱包.md)  
+- [搭建ETH钱包节点手册](./09_DOC/00_服务器部署/搭建ETH钱包.md)  
+- [搭建USDT钱包节点手册](./09_DOC/00_服务器部署/搭建USDT钱包.md)  
 
 ## 关于SpringCloud
 
