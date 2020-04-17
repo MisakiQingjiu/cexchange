@@ -36,6 +36,12 @@
 
 ![依赖关系](https://images.gitee.com/uploads/images/2020/0407/194510_89803a9d_2182501.png "QQ截图20200407194419.png")
 
+## 联系方式
+
+QQ：877070886  
+微信：shaoxianjun999  
+![](https://images.gitee.com/uploads/images/2020/0417/143304_fc17edfc_2182501.jpeg "微信图片_20200417143047.jpg")
+
 ## 系统演示视频
 
 PC前端（用户Web端）：[https://gitee.com/cexchange/CoinExchange/attach_files](https://gitee.com/cexchange/CoinExchange/attach_files)
