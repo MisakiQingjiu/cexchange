@@ -22,9 +22,6 @@
 
 ![APP](https://images.gitee.com/uploads/images/2020/0422/182559_860d3c60_2182501.png "幻灯片2.PNG")
 
-![后台](https://images.gitee.com/uploads/images/2020/0422/182946_ac05bf87_2182501.png "QQ截图20200325110415.png")
-
-
 ## 系统架构概要
 
 随便画的几个草图，凑合看吧。。。
