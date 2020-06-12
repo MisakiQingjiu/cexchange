@@ -456,17 +456,6 @@ export default {
                       this.$Message.error(resp.message);
                     }
                   })
-                }else {
-                  this.$http.post(this.host + '/uc/approve/bind/ali', param).then(response => {
-                      var resp = response.body;
-                      if (resp.code == 0) {
-                          this.$Message.success(this.$t('uc.account.save_success'));
-                          this.getAccount()
-                          this.choseItem = 0
-                      } else {
-                          this.$Message.error(resp.message);
-                      }
-                  })
                 }
             }
             //微信
