@@ -10,9 +10,6 @@
   text-align: right;
   margin-top: 20px;
 }
-.table {
-  border-radius: 4px;
-}
 .table .ivu-table-wrapper {
   position: relative;
   /* border: 1px solid #dddee1; */
