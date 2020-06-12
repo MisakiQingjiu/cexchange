@@ -24,7 +24,6 @@
 //import Exchange from '../pages/exchange/exchange'
 //import Help from '../pages/cms/help'
 //import HelpList from '../pages/cms/HelpList' //帮助分类列表
-//import HelpDetail from '../pages/cms/HelpDetail' //帮助详情
 //import OTCMain from '../pages/otc/Main'
 //import OtcTrade from '../pages/otc/Trade'
 //import OtcOrder from '../components/uc/myorder'
