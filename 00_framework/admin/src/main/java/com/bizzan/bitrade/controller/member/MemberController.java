@@ -36,7 +36,7 @@ import static org.springframework.util.Assert.isTrue;
 import static org.springframework.util.Assert.notNull;
 
 /**
- * @author Shaoxianjun
+ * @author Jammy
  * @description 后台管理会员
  * @date 2019/12/25 16:50
  */
@@ -62,12 +62,12 @@ public class MemberController extends BaseAdminController {
 
     @RequiresPermissions("member:all")
     @PostMapping("all")
-    @AccessLog(module = AdminModule.MEMBER, operation = "所有会员Member")
+    @AccessLog(module = AdminModule.MEMBER, operation = "所有会员")
     public MessageResult all() {
         List<Member> all = memberService.findAll();
         if (all != null && all.size() > 0) {
             return success(all);
-        }
+        }else{}
         return error(messageSource.getMessage("REQUEST_FAILED"));
     }
 
