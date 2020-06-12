@@ -2703,7 +2703,7 @@ export default {
       this.form.sell.limitPrice = currentRow.price;
     },
     /**
-     * 获取钱包信息
+     * 
      */
     getWallet() {
       this.$http
