@@ -64,8 +64,6 @@
 ## 联系方式
 
 QQ：877070886  
-微信：shaoxianjun999  
-![](https://images.gitee.com/uploads/images/2020/0417/143423_5eff6341_2182501.jpeg "微信图片_20200417143047.jpg")
 
 ## 系统演示视频
 
