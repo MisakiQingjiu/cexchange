@@ -40,6 +40,10 @@
 
 ![APP](https://images.gitee.com/uploads/images/2020/0422/182559_860d3c60_2182501.png "幻灯片2.PNG")
 
+## 完整的部署文档
+仅限客户使用
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0805/021818_1c02be7b_2182501.png "iShot2020-08-05上午02.16.32.png")
+
 ## 系统架构概要
 
 随便画的几个草图，凑合看吧。。。
