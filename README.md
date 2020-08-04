@@ -42,7 +42,7 @@
 
 ## 部署文档（超详细版）
 仅限客户使用
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0805/021818_1c02be7b_2182501.png "iShot2020-08-05上午02.16.32.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0805/022849_78d1fc64_2182501.png "iShot2020-08-05上午02.28.29.png")
 
 ## 系统架构概要
 
