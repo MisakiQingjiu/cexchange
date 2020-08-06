@@ -1,4 +1,4 @@
-永续合约核心类：
+永续合约核心类（暂不开源）：
 CoinThumb.java
 ContractOrderEntrustType.java   
 ContractWallet.java
